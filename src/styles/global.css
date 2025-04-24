@@ -1,0 +1,97 @@
+:root {
+  /* Cores */
+  --primary: #e50914;
+  --primary-hover: #f40612;
+  --background: #0f0f0f;
+  --surface: #1a1a1a;
+  --surface-light: #262626;
+  --surface-hover: #333333;
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --success: #00c853;
+  --error: #ff1744;
+  --warning: #ffd600;
+
+  /* Sombras */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.5);
+
+  /* Transições */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Bordas */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+input, textarea {
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface-light);
+  border-radius: var(--border-radius-lg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-out;
+} 
