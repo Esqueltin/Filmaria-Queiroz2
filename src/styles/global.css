@@ -1,7 +1,7 @@
 :root {
   /* Cores */
-  --primary: #e50914;
-  --primary-hover: #f40612;
+  --primary: #00c853;
+  --primary-hover: #00c853;
   --background: #0f0f0f;
   --surface: #1a1a1a;
   --surface-light: #262626;
@@ -9,7 +9,7 @@
   --text-primary: #ffffff;
   --text-secondary: #b3b3b3;
   --success: #00c853;
-  --error: #ff1744;
+  --error: #00c853;
   --warning: #ffd600;
 
   /* Sombras */
