@@ -36,9 +36,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ```
 src/
 ├── components/      # 📄 Páginas da aplicação
-│   ├── Home         # 🏠 Página inicial com lista de filmes
-│   ├── AddMovie     # ➕ Página de adicionar filme
-│   └── EditMovie    # ✏️ Página de editar filme
+│   ├── Home/         # 🏠 Página inicial com lista de filmes
+│   ├── AddMovie/     # ➕ Página de adicionar filme
+│   └── EditMovie/    # ✏️ Página de editar filme
 │
 ├── styles/             # 🎨 Estilos globais e variáveis
 │   ├── global.css      # 🌐 Estilos globais
