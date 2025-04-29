@@ -41,8 +41,7 @@ src/
 │   └── EditMovie/    # ✏️ Página de editar filme
 │
 ├── styles/             # 🎨 Estilos globais e variáveis
-│   ├── global.css      # 🌐 Estilos globais
-│   └── variables.css   # 🎯 Variáveis CSS
+│   └── global.css      # 🌐 Estilos globais
 │
 ├── App.js              # ⚛️ Configuração de rotas
 └── index.js           # 🎯 Ponto de entrada
