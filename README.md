@@ -68,14 +68,5 @@ npm start
 
 O projeto estará disponível em `http://localhost:3000`
 
-## 💡 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add: nova feature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 
